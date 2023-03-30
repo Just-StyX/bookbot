@@ -38,4 +38,4 @@ def write_report(sorted_dict, filepath, num_of_words):
 
 
 new_sort, total_words = count_text('books/frankenstein.txt')
-write_report(new_sort, 'books/report.txt', total_words)
+write_report(new_sort, 'report.txt', total_words)
